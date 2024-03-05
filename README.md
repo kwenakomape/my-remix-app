@@ -19,8 +19,8 @@ Streched goals of the Project
 1. Security
    I implemented one of security  meausures such as input validation, that is when user enter details about school on the
    form validate and sanitize the inputs using Zod wich helps catch errors early in the development process and ensures that data conforms to expected schema.
-   Other Security measure that I couldn't implement due to time constrained are Authentication and Authorization: Here I will create and interface where users register
- their details I will the very apply robust authentication mechanisms e.g Multi factor authentication to verify user identities and control access to resources. and for
+   Other Security measure that I couldn't implement due to time constrained are Authentication and Authorization: Here I will create an interface where users register
+ their details I will then apply robust authentication mechanisms e.g Multi factor authentication to verify user identities and control access to resources. and for
   Authorization I will create access controls based on roles and permissions to limit exposure to sensitive functionality.
 2. Validation
     I implemented data validation not only from the client side as mentioned above, but also from the server side using Zod
