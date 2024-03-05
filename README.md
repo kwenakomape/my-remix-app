@@ -24,18 +24,18 @@ Streched goals of the Project
   Authorization I will create access controls based on roles and permissions to limit exposure to sensitive functionality.
 2. Validation
     I implemented data validation not only from the client side as mentioned above, but also from the server side using Zod
-    library, meaning the user inputs are going through Serialization from the cleint and deserialization from the server,these ensures input dtat adheres to
+    library, meaning the user inputs are going through Serialization from the cleint and deserialization from the server,these ensures input data adheres to
    expected formats and constrains. I also Implemented error handling, e.g if the
     user does not provide inputs they wont be able to submit to the server.
 
 3. Test
    I did unit testing where I broke my program into smaller,logically isolated units,fucntions,methods,objects and modules to verify that each unit work. I also did Intergration
  testing to verify that different components work together. I further did end to end, where I send user inputs to the EdgeDB data through the remix server , to comfirm that the data is recieved at the backend,
-I the pulled the data from EdgeDb to show it on display .
+I then pulled the data from EdgeDb to show it on display .
 
 3. Progressive Enhancement:
-   My application is very responsive since I used remix reack hook form as opposed to controlled from, this reduces to much rendering like states in react,this reduces server loading.
-I used act and loader in remix, this helps  as remix communicate with server and client easily.
+   My application is very responsive since I used remix reack hook form as opposed to controlled from, this reduces too much rendering like states in react,this reduces server loading.
+I used action and loader in remix, this helps  as remix communicate with server and client easily.
 
 4.Caching:
  Due to time constrained I couldn't implement caching, but this is how I can achieve it:
