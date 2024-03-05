@@ -8,6 +8,10 @@ From your terminal:
 ```sh
 npm ci
 npm run dev
+edgedb project init
+edgedb configure set listen_addresses 127.0.0.1 ::1    // Only run this recieve this error "if A client connection error occurred; reconnecting because of "waitUntilAvailable=30000""
+
+Sometimes ports are used on your local machine try connecting EdgeDB on diffe
 ```
 
 This starts your app in development mode, rebuilding assets on file changes.
