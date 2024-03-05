@@ -11,7 +11,7 @@ npm run dev
 edgedb project init
 edgedb configure set listen_addresses 127.0.0.1 ::1    // Only run  this  "if A client connection error occurred; reconnecting because of "waitUntilAvailable=30000"" error occur
 
-Note That you have to run add several school details in order to be able to filter
+Note That you have to add several school details in order to be able to filter
 
 
 
