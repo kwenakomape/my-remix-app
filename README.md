@@ -9,20 +9,11 @@ From your terminal:
 npm ci
 npm run dev
 edgedb project init
-edgedb configure set listen_addresses 127.0.0.1 ::1    // Only run this recieve this error "if A client connection error occurred; reconnecting because of "waitUntilAvailable=30000""
+edgedb configure set listen_addresses 127.0.0.1 ::1    // Only run  this  "if A client connection error occurred; reconnecting because of "waitUntilAvailable=30000"" error occur
 
-Sometimes ports are used on your local machine try connecting EdgeDB on diffe
-```
+Note That you have to run add several school details in order to be able to filter
 
-This starts your app in development mode, rebuilding assets on file changes.
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
 
 Streched goals of the Project
 1. Security
