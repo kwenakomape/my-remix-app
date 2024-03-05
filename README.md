@@ -2,9 +2,11 @@
 
 ## Development
 
+
 From your terminal:
 
 ```sh
+npm ci
 npm run dev
 ```
 
